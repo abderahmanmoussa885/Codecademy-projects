@@ -33,7 +33,8 @@ SELECT strftime ("%H",timestamp) AS "HOURS" ,
 FROM hacker_news
 WHERE timestamp IS NOT NULL
 GROUP BY 1
-ORDER BY 2 DESC;
+ORDER BY 2 desc;
+
 
 
 
