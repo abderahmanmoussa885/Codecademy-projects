@@ -1,4 +1,4 @@
-select * from startups;
+select * from STARTUPS;
 select count(*) from startups;
 select sum(valuation) FROM STARTUPS;
 SELECT MAX(RAISED) FROM STARTUPS WHERE STAGE ="SEED";
